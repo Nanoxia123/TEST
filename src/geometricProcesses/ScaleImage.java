@@ -35,6 +35,7 @@ public class ScaleImage {
         g2d.drawImage(image, 0, 0, newWidth, newHeight, null);
         g2d.dispose();
         System.out.println("Изменён файл");
+        System.out.println("Доп изменения");
 
         // Сохранение нового изображения
         File outputfile = new File("C:\\java\\metodiObrabotki-master\\img\\scaleImage_Without_Interpolation.jpg");
