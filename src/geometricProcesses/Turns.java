@@ -18,7 +18,7 @@ public class Turns {
         BufferedImage image = ImageIO.read(input);
         System.out.println("Новое изменение");
         System.out.println("Новое изменение 2");
-
+        System.out.println("Новое изменеиние 3");
         // Угол поворота в градусах
         double angle = 180;
 
